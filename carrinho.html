@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="flex items-center m-8 justify-between">
+        <img class="w-40 h-30" src="https://www.casadege.com.br/assets/themes/casadege/images/logo.png" alt="">
+        <p class="text-right leading-4 text-pink-800 text-sm"><span class="font-bold">Entre </span>ou<br><span class="font-bold">Cadastre-se</span></p>
+    </div>
+  
+    <!-- search -->
+    <div class="m-8">
+      <div class="relative flex flex-wrap items-stretch mb-3">
+        <input type="text" class="px-3 py-3 w-full text-slate-600 relative bg-white bg-white rounded-full text-sm border border-slate-300 outline-none focus:outline-none focus:ring pr-10 shadow-lg shadow-orange-200/50"/>
+        <span class="h-full leading-snug font-normal absolute text-center text-slate-300 absolute bg-transparent rounded text-base items-center justify-center right-0 pr-3 py-3">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </span>
+      </div>
+    </div>
+  
+    <!-- navbar -->
+    <div class="w-100 ml-8 mb-4 flex overflow-auto items-center justify-between">
+      <div class="bg-pink-800 rounded-full shrink-0 m-1">
+        <p class="text-center text-white p-3 text-xs">Itens de Limpeza</p>
+      </div>
+  
+      <div class="bg-amber-400 rounded-full shrink-0 m-1">
+        <p class="text-center text-white p-3 text-xs">Kits</p>
+      </div>
+  
+      <div class="bg-amber-400 rounded-full shrink-0 m-1">
+        <p class="text-center text-white p-3 text-xs">Lavanderia</p>
+      </div>
+  
+      <div class="bg-amber-400 rounded-full shrink-0 m-1">
+        <p class="text-center text-white p-3 text-xs">Clube Gê</p>
+      </div>
+  
+      <div class="bg-amber-400 rounded-full shrink-0 m-1">
+        <p class="text-center text-white p-3 text-xs">Mais</p>
+      </div>
+    </div>
+  
+    <!-- paginas -->
+    <div class="ml-8 mt-8 flex items-center space-x-2">
+        <div class="border-2 border-gray-200 rounded-full"><p class="text-center text-pink-800 text-xs py-1 px-2">Início</p></div>
+        <div class="border-2 border-gray-200 rounded-full"><p class="text-center text-pink-800 text-xs py-1 px-2">> Carrinho</p></div>
+    </div>
+    
+    <!-- titulo -->
+    <div class="m-8">
+        <p class="text-pink-800 text-sm font-bold">CARRINHO DE COMPRAS</p>
+    </div>
+
+    <!-- card produto -->
+    <div class="border-2 border-gray-200 rounded-lg p-4 ml-8 mr-8 -mt-3 mb-8 shadow-lg shadow-orange-200/50">
+        <div class="flex justify-between">
+            <div class="border-2 border-gray-200 rounded-lg">
+                <div class="bg-contain bg-no-repeat bg-center h-24 w-24" style="background-image: url('https://s3.sa-east-1.amazonaws.com/gtex-s3upload.casadege.com.br/casadege.com.br/upload/m1/product/image/s1024x-1-tiramanchas-bastao.png')"></div>
+            </div> 
+            <div class="px-3">
+                <p class="text-pink-800 text-sm font-semibold leading-4">Bastão Tira Manchas Amazon Mini - 18g</p>
+                <div class="pt-2">
+                    <p class="text-xs"><span class="font-semibold">SKU: </span>13043008</p>
+                    <p class="text-xs"><span class="font-semibold">PREÇO UN: </span>R$33,60</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+            </button>
+            <div>
+                <div class="flex justify-between items-center">
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4" />
+                        </svg>
+                    </button>
+                        <p class="text-lg text-pink-800 font-bold px-4">10</p>
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800 text-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                  </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="border-2 border-gray-200 rounded-lg p-4 ml-8 mr-8 -mt-3 mb-8 shadow-lg shadow-orange-200/50">
+        <div class="flex justify-between">
+            <div class="border-2 border-gray-200 rounded-lg">
+                <div class="bg-contain bg-no-repeat bg-center h-24 w-24" style="background-image: url('https://s3.sa-east-1.amazonaws.com/gtex-s3upload.casadege.com.br/casadege.com.br/upload/m1/product/image/s1024x-1-tiramanchas-bastao.png')"></div>
+            </div> 
+            <div class="px-3">
+                <p class="text-pink-800 text-sm font-semibold leading-4">Bastão Tira Manchas Amazon Mini - 18g</p>
+                <div class="pt-2">
+                    <p class="text-xs"><span class="font-semibold">SKU: </span>13043008</p>
+                    <p class="text-xs"><span class="font-semibold">PREÇO UN: </span>R$33,60</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+            </button>
+            <div>
+                <div class="flex justify-between items-center">
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4" />
+                        </svg>
+                    </button>
+                        <p class="text-lg text-pink-800 font-bold px-4">10</p>
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800 text-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                  </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="border-2 border-gray-200 rounded-lg p-4 ml-8 mr-8 -mt-3 mb-8 shadow-lg shadow-orange-200/50">
+        <div class="flex justify-between">
+            <div class="border-2 border-gray-200 rounded-lg">
+                <div class="bg-contain bg-no-repeat bg-center h-24 w-24" style="background-image: url('https://s3.sa-east-1.amazonaws.com/gtex-s3upload.casadege.com.br/casadege.com.br/upload/m1/product/image/s1024x-1-tiramanchas-bastao.png')"></div>
+            </div> 
+            <div class="px-3">
+                <p class="text-pink-800 text-sm font-semibold leading-4">Bastão Tira Manchas Amazon Mini - 18g</p>
+                <div class="pt-2">
+                    <p class="text-xs"><span class="font-semibold">SKU: </span>13043008</p>
+                    <p class="text-xs"><span class="font-semibold">PREÇO UN: </span>R$33,60</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+            </button>
+            <div>
+                <div class="flex justify-between items-center">
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20 12H4" />
+                        </svg>
+                    </button>
+                        <p class="text-lg text-pink-800 font-bold px-4">10</p>
+                    <button class="bg-gray-200 rounded-full p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-pink-800 text-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="bg-gray-200 p-2 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 stroke-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                  </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- titulo resumo -->
+    <div class="m-8">
+        <p class="text-pink-800 text-sm font-bold">RESUMO DA SUA COMPRA</p>
+    </div>
+
+    <!-- container resumo -->
+    <div class="bg-gray-200 rounded-lg p-6 mr-8 ml-8 -mt-3 w-100">
+        <div class="flex justify-between">
+            <p class="text-sm inline">Subtotal (3 itens)</p>
+            <p class="font-bold text-sm inline">R$70,84</p>
+        </div>
+        <div class="w-full border-t border-gray-300 mt-4 mb-4"></div>
+        <p class="text-sm pb-2">Calcule o frete</p>
+        <div class="flex justify-between items-center space-x-2">
+            <input type="number" id="" name="" class="focus:outline-none border-2 border-gray-200 rounded-full placeholder-gray-400 px-6 py-2 text-sm w-44" placeholder="Digite seu CEP"></input>
+            <button class="bg-amber-400 rounded-full text-white px-4 py-3 text-xs">Calcular</button>
+        </div>
+        <div class="w-full border-t border-gray-300 mt-4 mb-4"></div>
+        <div class="flex justify-between">
+            <p class="font-bold text-xs">TOTAL</p>
+            <div>
+                <p class="text-right text-pink-800 font-bold text-2xl pb-2">R$999,00</p>
+                <p class="text-xs text-pink-800 -mt-2">Até <span class="font-bold">3x</span> de <span class="font-bold">R$3,66</span> sem juros*</p>
+            </div>
+        </div>
+        <div class="w-full border-t border-gray-300 mt-4 mb-4"></div>
+        <div class="space-y-2">
+            <button class="bg-pink-800 rounded-full space-x-2 w-full h-12">
+                <div class="flex justify-center items-center space-x-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    <p class="text-white text-xs font-semibold">Finalizar Compra</p>
+                </div>
+            </button>
+            <button class="bg-white border-2 border-gray-300 rounded-full space-x-2 w-full h-8">
+                <div class="flex justify-center items-center">
+                    <p class="text-xs">Escolher mais produtos</p>
+                </div>
+            </button>
+        </div>
+        <div class="w-full border-t border-gray-300 mt-4 mb-4"></div>
+        <p class="text-sm pb-2">Aplicar cupom</p>
+        <div class="flex justify-between items-center space-x-2">
+            <input type="text" id="" name="" class="focus:outline-none border-2 border-gray-200 rounded-full placeholder-gray-400 px-6 py-2 text-sm w-44" placeholder="CUPOM"></input>
+            <button class="bg-amber-400 rounded-full text-white px-4 py-3 text-xs">Aplicar</button>
+        </div>
+    </div>
+
+    <!-- observaçoes -->
+    <div class="w-100 ml-8 mt-3 mr-8">
+        <p class="text-pink-800 font-bold text-sm py-3">OBSERVAÇÕES*</p>
+        <div class="flex overflow-auto items-center justify-between space-x-2">
+            <div class="border-2 border-gray-200 shrink-0 w-44 rounded-lg">
+              <p class="text-center p-4 text-xs">Você pode aplicar <span class="font-semibold">1 Cupom</span> por Compra.</p>
+            </div>
+        
+            <div class="border-2 border-gray-200 shrink-0 w-44 rounded-lg">
+                <p class="text-center p-4 text-xs">Descontos não são acumulativos.</p>
+            </div>
+          </div>
+    </div>
+
+    <!-- banner -->
+    <div class="m-8 flex justify-center items-center">
+        <img class="rounded-lg w-176 h-176" src="https://casadege.com.br/assets/images/insta2.png"/>
+    </div>
+
+    <!-- formulario -->
+    <div class="w-100 m-8">
+        <div class="mt-4 border border-gray-200 rounded-lg p-3 shadow-lg shadow-orange-200/50 p-6">
+        <p class="text-pink-800 text-center font-bold text-sm leading-4">Receba descontos, lançamentos e as melhores ofertas.</p>
+        <label class="relative text-gray-400 focus-within:text-gray-600 block mt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-amber-400 pl-2 pointer-events-none w-6 h-6 absolute top-1/2 transform -translate-y-1/2 left-3" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+            <input type="text" name="name" id="name" placeholder="Seu Nome" class="form-input bg-gray-100 text-xs rounded-full py-3 px-4 bg-white placeholder-gray-400 text-gray-500 appearance-none w-full block pl-14 focus:outline-none">
+        </label>
+        
+        <label class="relative text-gray-400 focus-within:text-gray-600 block mt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-amber-400 pl-2 pointer-events-none w-6 h-6 absolute top-1/2 transform -translate-y-1/2 left-3" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+            </svg>
+            <input type="email" name="email" id="email" placeholder="Seu Email" class="form-input bg-gray-100 text-xs rounded-full py-3 px-4 bg-white placeholder-gray-400 text-gray-500 appearance-none w-full block pl-14 focus:outline-none">
+        </label>
+        <div class="flex justify-center items-center mt-4">
+            <button class="bg-amber-400 rounded-full w-20">
+            <p class="text-white p-2 text-center text-xs">Eu quero!</p>
+            </button>
+        </div>
+        </div>
+    </div>
+
+    <!-- acessibilidade -->
+    <div class="flex items-center justify-center space-x-2 mt-10">
+        <div>
+        <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.46965 18.9057C3.458 18.28 3.96709 17.7679 4.57503 17.7679H6.93883V17.5447H2.16274C1.5548 17.5447 1.04571 17.0325 1.05736 16.4068C1.06863 15.8004 1.5496 15.3125 2.1413 15.3125H6.93883V15.0893H1.10567C0.497727 15.0893 -0.0113619 14.5771 0.000287608 13.9514C0.0115577 13.3451 0.492567 12.8572 1.08427 12.8572H6.93887V12.634H2.18983C1.58189 12.634 1.07281 12.1218 1.08446 11.4961C1.09573 10.8898 1.57673 10.4019 2.16843 10.4019H8.56491L7.38535 9.51883C6.90107 9.15629 6.79403 8.45832 7.14621 7.95977C7.49839 7.46129 8.17645 7.35109 8.66072 7.71359L13.3418 11.2181C13.5078 11.3423 13.6428 11.5052 13.736 11.6935C13.8291 11.8817 13.8776 12.09 13.8776 12.3012V17.8143C13.8776 18.4358 13.4623 18.9757 12.8746 19.118L9.82101 19.8576C9.43036 19.9522 9.03039 20 8.62908 20H4.55363C3.96193 20 3.48092 19.5121 3.46965 18.9057ZM6.24919 10.0893H7.63131L7.20681 9.77148C6.5018 9.24371 6.436 8.17434 7.08652 7.56305L6.59306 6.9107C6.21955 6.41691 5.51425 6.31809 5.04181 6.71195C4.58399 7.09363 4.50552 7.7841 4.86904 8.26469L6.24919 10.0893ZM16.9993 10.0071L16.8095 4.05199C16.7898 3.43594 16.2888 2.95293 15.6903 2.97313C15.0918 2.99336 14.6226 3.50914 14.6423 4.1252L14.6902 5.62578L10.7603 0.43043C10.3968 -0.0501557 9.72732 -0.141054 9.25565 0.222305C8.76891 0.597266 8.68915 1.32543 9.06265 1.81922L11.9803 5.67645L11.8092 5.81359L8.21227 1.05836C7.84875 0.577774 7.17926 0.486876 6.70758 0.850235C6.22085 1.2252 6.14108 1.95336 6.51459 2.44715L10.0984 7.18496L9.92726 7.32211L6.97977 3.42547C6.61625 2.94488 5.94676 2.85398 5.47508 3.21734C4.98835 3.59231 4.90858 4.32047 5.28209 4.81426L7.25731 7.42555C7.73153 7.10301 8.35985 7.10191 8.8393 7.46086L13.5204 10.9653C13.9341 11.2751 14.1812 11.7745 14.1812 12.3012V12.9652L16.4984 11.1078C16.6603 10.978 16.7901 10.8106 16.8771 10.6194C16.9642 10.4281 17.0061 10.2183 16.9993 10.0071Z" fill="#8C2948"/>
+            </svg>        
+        </div>
+        <p class="text-pink-800 text-xs">Acessibilidade</p>
+    </div>
+
+    <footer>
+    <!-- compra segura e cartões -->
+    <div class="mt-4 w-full">
+        <div class="flex justify-between bg-amber-500 w-full p-8 space-x-6">
+        <div class="flex items-center justify-center space-x-2">
+            <svg width="38" height="30" viewBox="0 0 38 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.0846 15.3078C14.5634 15.3078 16.009 14.8814 17.2386 14.0827C18.4681 13.2839 19.4265 12.1486 19.9924 10.8203C20.5583 9.49206 20.7064 8.03046 20.4179 6.62036C20.1294 5.21027 19.4173 3.91502 18.3716 2.8984C17.3259 1.88178 15.9937 1.18945 14.5433 0.908967C13.0929 0.628482 11.5896 0.772437 10.2233 1.32263C8.85709 1.87282 7.68936 2.80453 6.86778 3.99995C6.04621 5.19537 5.60769 6.6008 5.60769 8.03852C5.60769 9.96644 6.39544 11.8154 7.79763 13.1786C9.19983 14.5419 11.1016 15.3078 13.0846 15.3078ZM18.6923 18.9424C18.6965 18.3353 18.8593 17.7393 19.1655 17.2102C18.8851 17.1819 18.6105 17.1251 18.3185 17.1251H17.343C16.0078 17.7237 14.5549 18.0337 13.0846 18.0337C11.6143 18.0337 10.1615 17.7237 8.82627 17.1251H7.85077C5.76876 17.1255 3.77215 17.9298 2.29995 19.3611C0.827746 20.7924 0.000464579 22.7336 0 24.7577L0 27.1203C0 27.8432 0.295404 28.5366 0.821228 29.0478C1.34705 29.559 2.06022 29.8462 2.80385 29.8462H19.2122C18.8762 29.296 18.6968 28.6688 18.6923 28.0289V18.9424ZM35.5154 17.1251H33.6462V12.5818C33.6462 11.3768 33.1538 10.2212 32.2774 9.36921C31.4011 8.51719 30.2125 8.03852 28.9731 8.03852C27.7337 8.03852 26.5451 8.51719 25.6687 9.36921C24.7923 10.2212 24.3 11.3768 24.3 12.5818V17.1251H22.4308C21.935 17.1251 21.4596 17.3165 21.109 17.6573C20.7585 17.9981 20.5615 18.4604 20.5615 18.9424V28.0289C20.5615 28.5109 20.7585 28.9731 21.109 29.3139C21.4596 29.6547 21.935 29.8462 22.4308 29.8462H35.5154C36.0111 29.8462 36.4866 29.6547 36.8371 29.3139C37.1877 28.9731 37.3846 28.5109 37.3846 28.0289V18.9424C37.3846 18.4604 37.1877 17.9981 36.8371 17.6573C36.4866 17.3165 36.0111 17.1251 35.5154 17.1251ZM28.9731 25.3029C28.6034 25.3029 28.242 25.1964 27.9346 24.9967C27.6272 24.797 27.3876 24.5132 27.2461 24.1811C27.1047 23.849 27.0676 23.4836 27.1398 23.1311C27.2119 22.7786 27.3899 22.4548 27.6513 22.2006C27.9128 21.9465 28.2458 21.7734 28.6084 21.7032C28.971 21.6331 29.3468 21.6691 29.6884 21.8067C30.03 21.9442 30.3219 22.1771 30.5273 22.476C30.7327 22.7748 30.8423 23.1262 30.8423 23.4856C30.8423 23.9676 30.6454 24.4299 30.2948 24.7707C29.9443 25.1115 29.4688 25.3029 28.9731 25.3029ZM30.8423 17.1251H27.1038V12.5818C27.1038 12.0998 27.3008 11.6376 27.6513 11.2968C28.0019 10.9559 28.4773 10.7645 28.9731 10.7645C29.4688 10.7645 29.9443 10.9559 30.2948 11.2968C30.6454 11.6376 30.8423 12.0998 30.8423 12.5818V17.1251Z" fill="white"/>
+            </svg>          
+            <p class="text-white font-semibold text-xs">Compra </br>100% segura</p>
+        </div>
+
+        <div>
+            <p class="text-white text-xs">Formas de pagamento aceitas</p>
+            <div class="flex justify-center-items-center space-x-2 mt-2">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 11.918H11.7985V0.355469H0V11.918ZM3.93282 4.20964H7.86565V8.0638H3.93282V4.20964ZM15.7313 0.355469V11.918H27.5298V0.355469H15.7313ZM23.5969 8.0638H19.6641V4.20964H23.5969V8.0638ZM0 27.3346H11.7985V15.7721H0V27.3346ZM3.93282 19.6263H7.86565V23.4805H3.93282V19.6263ZM25.5634 15.7721H27.5298V23.4805H21.6305V21.5534H19.6641V27.3346H15.7313V15.7721H21.6305V17.6992H25.5634V15.7721ZM25.5634 25.4076H27.5298V27.3346H25.5634V25.4076ZM21.6305 25.4076H23.5969V27.3346H21.6305V25.4076Z" fill="white"/>
+            </svg>
+            <svg width="30" height="18" viewBox="0 0 34 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M33.9821 21.5819V0.108643H32.8207V21.5819H33.9821ZM32.2493 21.5666V0.108643H31.6593V21.5666H32.2493ZM30.4979 21.5666V0.108643H29.9264V21.5666H30.4979ZM27.6036 21.5666V0.108643H27.0321V21.5666H27.6036ZM25.2808 21.5666V0.108643H24.1378V21.5666H25.2808ZM22.3865 21.5666V0.108643H21.815V21.5666H22.3865ZM21.2251 21.5666V0.108643H20.6536V21.5666H21.2251ZM20.0637 21.5666V0.108643H19.4922V21.5666H20.0637ZM17.7592 21.5666V0.108643H16.5978V21.5666H17.7592ZM14.8649 21.5666V0.108643H13.7035V21.5666H14.8649ZM12.5422 21.5666V0.108643H11.3807V21.5666H12.5422ZM10.2193 21.5666V0.108643H9.0578V21.5666H10.2193ZM8.48638 21.5666V0.108643H7.32497V21.5666H8.48638ZM5.57363 21.5666V0.108643H3.84074V21.5666H5.57363ZM3.26926 21.5666V0.108643H2.67933V21.5666H3.26926ZM2.10785 21.5819V0.108643H0.946434V21.5819H2.10785Z" fill="white"/>
+            </svg>
+            <svg width="35" height="28" viewBox="0 0 39 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.8544 14.1452C31.8544 14.1452 32.363 16.7054 32.4767 17.2423H30.2418C30.4626 16.6297 31.3124 14.2484 31.3124 14.2484C31.2991 14.2691 31.5332 13.6221 31.6671 13.2229L31.8544 14.1452ZM38.9405 3.73204V27.9582C38.9405 29.7821 37.5019 31.2618 35.7287 31.2618H3.61061C1.83743 31.2618 0.398804 29.7821 0.398804 27.9582V3.73204C0.398804 1.90819 1.83743 0.428467 3.61061 0.428467H35.7287C37.5019 0.428467 38.9405 1.90819 38.9405 3.73204ZM10.603 21.0207L14.8319 10.3392H11.9881L9.3584 17.6346L9.07068 16.1548L8.1339 11.2408C7.98 10.5594 7.50492 10.3667 6.91609 10.3392H2.58685L2.54001 10.5525C3.59723 10.8278 4.54069 11.227 5.36372 11.7294L7.75919 21.0207H10.603ZM16.9195 21.0345L18.6057 10.3392H15.9158L14.2363 21.0345H16.9195ZM26.2806 17.5382C26.294 16.32 25.5713 15.3909 24.0257 14.6269C23.0822 14.1383 22.5067 13.8079 22.5067 13.3055C22.5201 12.8513 22.9952 12.3833 24.0524 12.3833C24.929 12.3626 25.5713 12.576 26.0531 12.7893L26.294 12.9063L26.662 10.5938C26.1334 10.3805 25.2903 10.1396 24.2532 10.1396C21.5967 10.1396 19.7299 11.5987 19.7165 13.6772C19.6964 15.2119 21.0547 16.0654 22.0718 16.5816C23.1089 17.1046 23.4636 17.4487 23.4636 17.9099C23.4502 18.6256 22.6205 18.956 21.851 18.956C20.7804 18.956 20.2049 18.7839 19.3284 18.3848L18.9737 18.2127L18.599 20.6147C19.228 20.9106 20.3923 21.1721 21.5967 21.1859C24.4204 21.1928 26.2605 19.7544 26.2806 17.5382ZM35.7287 21.0345L33.5607 10.3392H31.4797C30.8374 10.3392 30.3489 10.5319 30.0746 11.227L26.0799 21.0345H28.9036C28.9036 21.0345 29.3653 19.7131 29.4656 19.4309H32.9183C32.9986 19.8094 33.2395 21.0345 33.2395 21.0345H35.7287Z" fill="white"/>
+            </svg>                                          
+            <svg width="36" height="28" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M33.5924 26.4648C33.5924 26.9328 33.2759 27.27 32.8216 27.27C32.3536 27.27 32.0508 26.9121 32.0508 26.4648C32.0508 26.0174 32.3536 25.6595 32.8216 25.6595C33.2759 25.6595 33.5924 26.0174 33.5924 26.4648ZM12.2018 25.6595C11.7132 25.6595 11.431 26.0174 11.431 26.4648C11.431 26.9121 11.7132 27.27 12.2018 27.27C12.6492 27.27 12.952 26.9328 12.952 26.4648C12.9451 26.0174 12.6492 25.6595 12.2018 25.6595ZM20.2887 25.6389C19.917 25.6389 19.6899 25.8798 19.6349 26.2376H20.9494C20.8875 25.8453 20.6466 25.6389 20.2887 25.6389ZM27.708 25.6595C27.24 25.6595 26.9578 26.0174 26.9578 26.4648C26.9578 26.9121 27.24 27.27 27.708 27.27C28.176 27.27 28.4788 26.9328 28.4788 26.4648C28.4788 26.0174 28.176 25.6595 27.708 25.6595ZM34.9965 27.4558C34.9965 27.4765 35.0171 27.4902 35.0171 27.5315C35.0171 27.5522 34.9965 27.566 34.9965 27.6072C34.9758 27.6279 34.9758 27.6417 34.9621 27.6623C34.9414 27.683 34.9276 27.6967 34.8864 27.6967C34.8657 27.7174 34.8519 27.7174 34.8106 27.7174C34.79 27.7174 34.7762 27.7174 34.7349 27.6967C34.7143 27.6967 34.7005 27.6761 34.6799 27.6623C34.6592 27.6417 34.6455 27.6279 34.6455 27.6072C34.6248 27.5728 34.6248 27.5522 34.6248 27.5315C34.6248 27.4971 34.6248 27.4765 34.6455 27.4558C34.6455 27.4214 34.6661 27.4008 34.6799 27.3801C34.7005 27.3595 34.7143 27.3595 34.7349 27.3457C34.7693 27.3251 34.79 27.3251 34.8106 27.3251C34.8451 27.3251 34.8657 27.3251 34.8864 27.3457C34.9208 27.3664 34.9414 27.3664 34.9621 27.3801C34.9827 27.3939 34.9758 27.4214 34.9965 27.4558ZM34.8451 27.5522C34.8795 27.5522 34.8795 27.5315 34.9001 27.5315C34.9208 27.5109 34.9208 27.4971 34.9208 27.4765C34.9208 27.4558 34.9208 27.4421 34.9001 27.4214C34.8795 27.4214 34.8657 27.4008 34.8244 27.4008H34.7143V27.6417H34.7693V27.5453H34.79L34.8657 27.6417H34.9208L34.8451 27.5522ZM40 3.80089V28.0271C40 29.8509 38.5203 31.3306 36.6964 31.3306H3.66072C1.83687 31.3306 0.357147 29.8509 0.357147 28.0271V3.80089C0.357147 1.97704 1.83687 0.497314 3.66072 0.497314H36.6964C38.5203 0.497314 40 1.97704 40 3.80089ZM4.76191 13.4088C4.76191 18.6738 9.0359 22.941 14.2941 22.941C16.1661 22.941 18.0037 22.3766 19.5592 21.3511C14.5419 17.2698 14.5763 9.56837 19.5592 5.48708C18.0037 4.45472 16.1661 3.89724 14.2941 3.89724C9.0359 3.89036 4.76191 8.16435 4.76191 13.4088ZM20.1786 20.8969C25.0307 17.1115 25.01 9.73355 20.1786 5.92756C15.3471 9.73355 15.3265 17.1184 20.1786 20.8969ZM10.3849 26.1482C10.3849 25.5494 9.99256 25.1571 9.37314 25.1364C9.05655 25.1364 8.71931 25.2328 8.49219 25.5838C8.32701 25.3016 8.04483 25.1364 7.65253 25.1364C7.391 25.1364 7.12947 25.2328 6.923 25.5081V25.2053H6.35863V27.7311H6.923C6.923 26.4304 6.75093 25.6526 7.54242 25.6526C8.24442 25.6526 8.10677 26.3546 8.10677 27.7311H8.65049C8.65049 26.4716 8.47843 25.6526 9.26991 25.6526C9.97192 25.6526 9.83427 26.3409 9.83427 27.7311H10.3986V26.1482H10.3849ZM13.4751 25.2053H12.9314V25.5081C12.7455 25.281 12.484 25.1364 12.1261 25.1364C11.4172 25.1364 10.8735 25.7008 10.8735 26.4648C10.8735 27.2356 11.4172 27.7931 12.1261 27.7931C12.484 27.7931 12.7455 27.6623 12.9314 27.4214V27.738H13.4751V25.2053ZM16.2625 26.9672C16.2625 25.9348 14.6864 26.4028 14.6864 25.921C14.6864 25.5287 15.5054 25.5907 15.9596 25.8453L16.1868 25.398C15.5398 24.9782 14.1083 24.985 14.1083 25.9623C14.1083 26.9465 15.6843 26.5336 15.6843 26.9947C15.6843 27.4283 14.7552 27.3939 14.2597 27.0498L14.0188 27.4834C14.7896 28.0064 16.2625 27.8963 16.2625 26.9672ZM18.6989 27.6072L18.5474 27.1392C18.2859 27.2838 17.7078 27.4421 17.7078 26.8571V25.7146H18.6094V25.2053H17.7078V24.4344H17.1434V25.2053H16.6204V25.7077H17.1434V26.8571C17.1434 28.0684 18.3341 27.8481 18.6989 27.6072ZM19.6142 26.685H21.5069C21.5069 25.57 20.9976 25.1296 20.3093 25.1296C19.5798 25.1296 19.0567 25.6733 19.0567 26.4579C19.0567 27.8688 20.6122 28.1028 21.383 27.4352L21.1215 27.0222C20.5846 27.4627 19.7725 27.4214 19.6142 26.685ZM23.6817 25.2053C23.3651 25.0676 22.8834 25.0814 22.6356 25.5081V25.2053H22.0712V27.7311H22.6356V26.3065C22.6356 25.5081 23.2894 25.6113 23.5166 25.7283L23.6817 25.2053ZM24.4113 26.4648C24.4113 25.6802 25.2096 25.4255 25.8359 25.8866L26.0975 25.4393C25.2991 24.813 23.8469 25.1571 23.8469 26.4716C23.8469 27.8344 25.3886 28.1097 26.0975 27.504L25.8359 27.0567C25.2028 27.504 24.4113 27.2356 24.4113 26.4648ZM29.0019 25.2053H28.4375V25.5081C27.8663 24.751 26.3797 25.1777 26.3797 26.4648C26.3797 27.7862 27.9213 28.1647 28.4375 27.4214V27.738H29.0019V25.2053ZM31.3212 25.2053C31.1561 25.1227 30.5642 25.0057 30.2751 25.5081V25.2053H29.7314V27.7311H30.2751V26.3065C30.2751 25.5494 30.8945 25.5976 31.1561 25.7283L31.3212 25.2053ZM34.0949 24.1798H33.5512V25.5081C32.9868 24.7579 31.4933 25.1571 31.4933 26.4648C31.4933 27.8 33.0419 28.1578 33.5512 27.4214V27.738H34.0949V24.1798ZM34.6179 19.0111V19.3277H34.673V19.0111H34.8038V18.956H34.4872V19.0111H34.6179ZM35.0722 27.5315C35.0722 27.4971 35.0722 27.4558 35.0515 27.4214C35.0309 27.4008 35.0171 27.3664 34.9965 27.3457C34.9758 27.3251 34.9414 27.3113 34.9208 27.2907C34.8864 27.2907 34.8451 27.27 34.8106 27.27C34.79 27.27 34.7556 27.2907 34.7143 27.2907C34.6799 27.3113 34.6592 27.3251 34.6386 27.3457C34.6042 27.3664 34.5835 27.4008 34.5835 27.4214C34.5629 27.4558 34.5629 27.4971 34.5629 27.5315C34.5629 27.5522 34.5629 27.5866 34.5835 27.6279C34.5835 27.6485 34.6042 27.683 34.6386 27.7036C34.6592 27.7242 34.673 27.738 34.7143 27.7587C34.7487 27.7793 34.79 27.7793 34.8106 27.7793C34.8451 27.7793 34.8864 27.7793 34.9208 27.7587C34.9414 27.738 34.9758 27.7242 34.9965 27.7036C35.0171 27.683 35.0309 27.6485 35.0515 27.6279C35.0722 27.5866 35.0722 27.5522 35.0722 27.5315ZM35.2924 18.9491H35.1961L35.0859 19.19L34.9758 18.9491H34.8795V19.3208H34.9345V19.0386L35.0446 19.2795H35.1204L35.2167 19.0386V19.3208H35.2924V18.9491ZM35.5952 13.4088C35.5952 8.16435 31.3212 3.89036 26.0631 3.89036C24.191 3.89036 22.3534 4.45472 20.798 5.4802C25.7602 9.56149 25.8359 17.2836 20.798 21.3442C22.3534 22.3766 24.2048 22.9341 26.0631 22.9341C31.3212 22.941 35.5952 18.6738 35.5952 13.4088Z" fill="white"/>
+            </svg>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- todos os departamentos -->
+    <div class="w-100 bg-amber-400 p-8">
+        <p class="text-white text-sm font-semibold">Todos os departamentos</p>
+        <div class="grid grid-rows-5 grid-cols-7 gap-x-28 gap-y-4 overflow-auto mt-4">
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Alcool Gel 70</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Amaciante Concentrado</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Amaciantes</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Captador de Pó</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Desengordurante</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Desinfetante</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Detergente</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Facilitadores</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">KIT - Cuidados com a Casa</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">KIT - Cuidados com as Roupas</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Kit Misto</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Lava Louças</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Lava Roupas Líquido</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Lavanderia</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Lenço Seco Eletrostático</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Lenço Umedecido</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Limpa Forno</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Limpador</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Limpador Perfumado</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Limpeza</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">MOP</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Pisos</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Sabão em Barra</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Sabão em pasta</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Sabão em Pó</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Tira Limo</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Tira Manchas</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Tira Mofo</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Uso Geral</a></div>
+            <div class="h-6 w-24 overflow-hidden rounded-xl bg-white"><a class="text-pink-800 text-xs p-2">Utensílios</a></div>
+        </div>
+    </div>
+
+    <!-- duvidas -->
+    <div>
+        <div class="bg-amber-500 p-8">
+        <div class="flex justify-between">
+            <div>
+            <p class="text-white text-sm font-semibold">Dúvidas?</p>
+            <div class="mt-4">
+                <p class="bg-amber-400 text-white text-xs p-2 rounded-full inline">(11) 96629-4417</p>
+                <p class="bg-amber-400 text-white text-xs p-2 rounded-full mt-4">ge@casadege.com.br</p>
+            </div>
+            </div>
+
+            <div>
+            <p class="text-white text-sm font-semibold">Políticas</p>
+            <div class="mt-4 space-y-2">
+                <a href="" class="text-white text-xs underline block">Privacidade</a>
+                <a href="" class="text-white text-xs underline block">Trocas</a>
+                <a href="" class="text-white text-xs underline block">Pagamento</a>
+                <a href="" class="text-white text-xs underline block">Desconto</a>
+                <a href="" class="text-white text-xs underline block">Termos e Condições</a>
+            </div>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+    <!-- informações -->
+    <div class="m-8 pb-28">
+        <p class="text-pink-800 text-center text-xs font-medium">
+            <span class="font-semibold">26.756.989/0001-51<br>DBS COMERCIAL DE PRODUTOS DE LIMPEZA LTDA</span><br>
+        Rua Rosa Mafei, nº 445 - Bonsucesso | Guarulhos - SP
+        CEP 07177-110  |  (11) 96629-4417
+        </p>
+    </div>
+    
+    </footer>
+
+    <!-- menu principal -->
+    <div>
+        <div class="w-full bg-white p-4 fixed bottom-0">
+        <div class="flex justify-center items-center space-x-6">
+            <div>
+            <button class="bg-pink-800 rounded-full p-2 shadow-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+            </button>
+            </div>
+
+            <div>
+            <button class="bg-amber-400 rounded-full p-3 shadow-inner -z-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            </div>
+
+            <div>
+            <button class="bg-pink-800 rounded-full p-2 shadow-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
